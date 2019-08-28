@@ -1,0 +1,23 @@
+{
+  "name": "tomhutman-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --config webpack.build.config.js",
+    "dev": "webpack-dev-server --config webpack.dev.config.js"
+  },
+  "author": "tom hutman",
+  "license": "ISC",
+  "dependencies": {
+    "simplex-noise": "^2.4.0",
+    "three": "^0.107.0"
+  },
+  "devDependencies": {
+    "file-loader": "^4.1.0",
+    "image-webpack-loader": "^5.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
